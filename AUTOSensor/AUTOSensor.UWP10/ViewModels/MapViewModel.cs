@@ -77,9 +77,10 @@ namespace AUTOSensor.UWP10.ViewModels
             if (map != null)
             {
                 // TODO WTS: Set your map service token. If you don't have one, request at https://www.bingmapsportal.com/
-                map.MapServiceToken = string.Empty;
+                map.MapServiceToken = "zVnf4zD2ZJtSuxLIWlq2~XK_iI7r31E02A5vcY6XGSw~Aq9owsidvevA6Nk1rI6sw514WkzqZeWlDEjT0FItyrZoZ_OaARGl1pWhJ0RIF6bv";
+                    //string.Empty;
 
-                AddMapIcon(map, Center, "Map_YourLocation".GetLocalized());
+                AddMapIcon(map, Center, "Italy".GetLocalized());
             }
         }
 
